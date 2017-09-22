@@ -1,6 +1,8 @@
 # lucene
 关于全文检索lucene的简单运用
 首先要导入lucence相关jar包
+
+
 //建索引部分代码
 IndexWriter writer = null;
 
