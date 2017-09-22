@@ -7,6 +7,7 @@
 
 
 IndexWriter writer = null;
+
 		try {
 			Directory directory = FSDirectory.open(new File("C:/lucenetest/index"));
 			IndexWriterConfig iwConfig = new IndexWriterConfig(Version.LUCENE_36, new StandardAnalyzer(Version.LUCENE_36));
