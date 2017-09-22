@@ -5,6 +5,7 @@
 
 //建索引部分代码
 
+
 IndexWriter writer = null;
 		try {
 			Directory directory = FSDirectory.open(new File("C:/lucenetest/index"));
