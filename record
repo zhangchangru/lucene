@@ -1,0 +1,9 @@
+ //Field.Store.YES:                         存储字段值（未分词前的字段值） 
+                //Field.Store.NO:                          不存储,存储与索引没有关系 
+                //Field.Store.COMPRESS:                    压缩存储,用于长文本或二进制，但性能受损 
+
+                //Field.Index ANALYZED;                    分词建索引
+                //Field.Index ANALYZED_NO_NORMS;           分词压缩建索引
+                //Field.Index NO;
+                //Field.Index NOT_ANALYZED;                不分词建索引
+                //Field.Index NOT_ANALYZED_NO_NORMS;       不分词压缩建索引
